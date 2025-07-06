@@ -1,0 +1,97 @@
+html, body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#track{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#mainContainer{
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.scoreBoard{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  height: 200px;
+  background-color: rgba(255, 251, 234, 0.9);
+  border: 2px solid rgba(244, 39, 28, 0.828);
+}
+
+.playerScore,
+.gameText,
+.opponentScore
+{
+  border: 1px solid black;
+}
+
+.playerScore,
+.opponentScore
+{
+  width: 20%;
+}
+
+.gameText{
+  width: 40%;
+}
+
+.playerObjects,
+.opponentObjects{
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0 1 80%;
+  margin: 10px;
+  padding: 4px;
+}
+
+.playerObjects img,
+.opponentObjects img{
+  max-width: 25%;
+  object-fit: contain;
+}
+
+.backgroundImageOne {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .65;
+} 
+
+.backgroundImageTwo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+} 
+
+.backgroundImageThree {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+} 
