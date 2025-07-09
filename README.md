@@ -1,7 +1,5 @@
 # rockPaperScissors
 
-Simple rock/paper/scissors program.
-I use alerts to prompt/communicate with user.
+Simple rock/paper/scissors program with GUI.
 Game goes until 5. 
-Practice with arrow functions.
-Use 2 global variables to keep track of score. 
+I mostly used javascript to create html elements
